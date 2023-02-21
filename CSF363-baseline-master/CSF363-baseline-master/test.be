@@ -1,3 +1,8 @@
-//my name is rohan
-let abc = 123 * 20 + 20 + (22 / 2) - 3;
-dbg abc + abc;
+#def abc 10
+#ifdef abc
+dbg abc*3;
+#elif abc
+dbg 20;
+#else
+dbg 12;
+#endif
